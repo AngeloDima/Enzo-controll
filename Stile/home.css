@@ -1216,11 +1216,26 @@ footer{
     }
 
     #infoFooter{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
 
 }
 
+
+
+
+@media only screen and (max-width: 400px) {
+
+    #enzoLogo1{
+        display: none;
+    }
+
+    #infoFooter{
+        font-size: 0.8rem;
+        align-items: start;
+    }
+
+}
 
 
 
