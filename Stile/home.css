@@ -31,7 +31,12 @@ header{
     margin-left: 30px;
 }
 
+@media screen and (max-width: 500px){
 
+    .SxHeader h2{
+        font-size: 1.4rem;
+    }
+}
 
 
 
@@ -301,6 +306,11 @@ header{
 
     .content {
         height: 75%;
+    }
+
+    .SxboxUp{
+        position: absolute;
+        top: 8%;
     }
 }
 
