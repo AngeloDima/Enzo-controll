@@ -217,6 +217,10 @@ header{
     }
 
 
+    .SxboxUp h2 {
+        font-size: 25px;
+    }
+
     .SxboxUp p{
 
             font-size: 1.4vw;
@@ -282,6 +286,11 @@ header{
         font-size: 35px;
         line-height: 43px;
     }
+
+    .SxboxUp h2{
+        font-size: 20px;
+    }
+
     .SxboxUp{
         width: 80vw;
     }
@@ -1175,13 +1184,42 @@ footer{
 
 
 
+@media only screen and (max-width: 650px) {
+
+    #infoFooter{
+        font-size: 0.8rem;
+    }
+}
+
+
+@media only screen and (max-width: 590px) {
+
+    #enzoLogo1{
+        height: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 510px) {
+
+    #enzoLogo1{
+        height: 150px;
+    }
+}
 
 
 
+@media only screen and (max-width: 480px) {
 
+    #enzoLogo1{
+        height: 130px;
+    }
 
+    #infoFooter{
+        font-size: 0.7rem;
+    }
 
-
+}
 
 
 
